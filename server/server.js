@@ -1,1 +1,0 @@
-const person = 1;
