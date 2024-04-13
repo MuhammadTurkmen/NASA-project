@@ -1,0 +1,1 @@
+function getAllLaunches(req, res) {}
