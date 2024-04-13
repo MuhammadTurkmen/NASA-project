@@ -10,3 +10,9 @@ const launch = {
   upcoming: true,
   success: true,
 };
+
+launches.set(launch.flightNumber, launch);
+
+module.exports = {
+  launch,
+};
