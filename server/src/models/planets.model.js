@@ -12,6 +12,11 @@ function isHabitablePlanet(planet) {
   );
 }
 
+/* 
+ new Promise = new Promise() 
+ Promise.then((result))
+*/
+
 fs.createReadStream("kepler_data.csv")
   .pipe(
     parse({
